@@ -1,3 +1,3 @@
 # rsschool-cv
-## CV-HTML
+## CV-Markdown
 https://viktoriya-dot.github.io/rsschool-cv/cv
