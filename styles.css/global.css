@@ -84,9 +84,9 @@ body {
   justify-content: center;
 }
 
-.gap {
+/* .gap {
   gap: 20px;
-}
+} */
 
 .hard-skills-box {
   justify-content: space-between;
@@ -111,5 +111,17 @@ body {
 @media only screen and (max-width: 855px) {
   body {
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  header {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .hard-skills-box {
+      flex-direction: column;
   }
 }
