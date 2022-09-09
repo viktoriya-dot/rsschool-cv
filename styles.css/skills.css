@@ -1,0 +1,47 @@
+.hard-skills-box{
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.hard-skills-box > ul {
+    list-style-type: square;
+}
+
+/*Soft Skills*/
+
+.soft-skills-ul {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    grid-gap: 5px 50px;
+    align-items: start;
+}
+
+.lang-box > h2{
+    margin-bottom: 20px;
+}
+
+.project-box > h2 {
+    margin-bottom: 20px;
+}
+
+.code-ex-box {
+    background: #000;
+    color: var(--tint-color);
+    overflow-x: hidden;
+}
+
+.footer-box {
+    width: 90%;
+    margin: 60px auto 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rss-logo {
+    padding: 5px;
+}
+
+.education-box > h2 {
+    margin-bottom: 20px;
+}
